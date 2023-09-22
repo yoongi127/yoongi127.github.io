@@ -1,0 +1,37 @@
+/* Erica Pedraza
+September 21,2023 */
+body{
+    color:blueviolet
+    font-size:16px;
+    padding:30px;
+}
+
+a{
+    color:darkmagenta;
+}
+
+a:hover{
+    color:lightcoral;
+}
+/* targetting classes*/
+
+.intro{
+    font-size:24px;
+    color:darkolivegreen;
+    text-align: center;
+}
+.highlight{
+    background-color: lightgreen;
+    padding:5px;
+}
+
+.alert{
+    background:lightcoral;
+    color:white;
+    font-weight: bold;
+    padding: 5px;
+}
+.blue{
+    background:darkmagenta;
+
+}
