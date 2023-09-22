@@ -1,0 +1,45 @@
+/* Erica Pedraza
+Thursday September 21 */
+
+
+header{
+    background-color:#5F9EA0;
+}
+
+selector:pseudo-class{
+    property:value;
+}
+/* unvisited link */ /* must be in this order !*/
+a:link{
+    color:#2F4F4F;
+}
+/* visited link */
+a:visited{
+    color:#BA55D3;
+}
+/* mouse over link */
+a:hover{
+    color:#FA8072;
+
+}
+/* selected link */
+a:active{
+    color:#3CB317;
+}
+p{
+    font-size:20px;
+}
+ol{
+    font-size:20px;
+}
+li{
+    font-size:20px;
+}
+footer{
+    background-color: #5F9EA0;
+    font-size:20px;
+}
+
+/* target header tag with background color
+target p tag, ul tag, and li tag of font size sice 20
+target link a d add pseudo user interaction states
