@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    background-image: url("abstractPic.jpg");
+    background-size: cover;
+}
+
+h1{
+    font-size: 2em;
+    font-style: italic;
+}
+
+h3{
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+}
+.fonts{
+    color:orange;
+    font-family:'Comic Sans MS', sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+}
+.colors{
+    color:red;
+    font-weight: bold;
+}
+.background{
+    color:green;
+    font:'Trebuchet MS', sans-serif;
+    font-size:1.25em;
+}
+.more {
+    color:blue;
+    text-decoration: underline;
+    border: 1px dashed gray;
+    background-color: #D69BBE;
+}
+article ul{
+    list-style-image: url("peaceyoo.png");
+}
+
+#outerwrapper{
+    width: 650px;
+    background-color: #E7DBF6;
+    margin-left:auto;
+    margin-right: auto;
+}
+.navigation{
+    width: 175px;
+    background-color: #E7DBF6;
+    float: left;
+}
+.fork{
+    margin-left: 175px;
+    background-color:white;
+    padding: 10px;
+}
+.fruity{
+    font-size: .75em;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
