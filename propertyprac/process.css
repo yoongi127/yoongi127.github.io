@@ -1,0 +1,27 @@
+/*font-family
+text-decoration: none, underline, overline, line-through */
+h1{
+    background-color:#A8D6EB;
+    font-family:'Anton';
+}
+h2{
+    font-size: 1.5em;
+}
+section{
+    background-color:#AEF0CC;
+}
+article{
+    background-color:#E3ADB9;
+}
+p.intro{
+    text-decoration:none;
+}
+p.just{
+    text-decoration:underline;
+}
+p.jungkook{
+    text-decoration:overline;
+}
+p.jimin{
+    text-decoration:line-through;
+}
