@@ -1,0 +1,103 @@
+<!-- Erica Pedraza
+November 7 2023-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio : Contact</title>
+<meta charset="UTF-8">
+<meta name="description" content="contact me">
+<meta name="keywords" content="HTML, CSS, contact me">
+<meta name="author" content="Astro Ramirez">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/portfolioa.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Oswald:wght@300;400&family=Pacifico&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+<style>
+  div {
+      margin: 10px;
+  }
+
+  label {
+      margin-right: 15px;
+      width: 150px;
+      display: inline-block;
+      }
+</style>
+</head>
+<header>
+    <img src="images/astro1.png" alt="Astro's logo" width="100" height="100">
+   </header>
+<body>
+<nav>
+   <a href="home.html">Home</a>
+   <a href="about.html">About</a>
+   <a href="experience.html">Experience</a> 
+   <a href="contact.html">Contact</a>
+</nav>
+<main>
+<h3>Contact me :</h3>
+<form action="mailto:ericapedraza@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+    <fieldset>
+    <legend><p>How do I contact you?</p></legend>
+        <div>
+            <label for="first_name">Your name :</label>
+            <input type="text" name="first_name" id="first_name" placeholder="First Name"  />
+        </div>
+        <div>
+        </div>
+        <div>
+        <label for="email">Email address:</label>
+        <input type="email" name="email" id="email"
+        placeholder="Email address"  />
+        </div>
+        <div>
+            <label for="phone">Phone Number:</label> <input type="tel" name="phone"
+            id="phone"  />
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend><p>What opportunities are available at your company?</p></legend>
+          <div>
+            <p> Type of position :</p>
+            <select name="position" id="position">
+                <option value="Internship">Internship</option>
+                <option value="Part-Time">Part-Time</option>
+                <option value="Full-Time">Full-Time</option>
+                <option value="Contract">Contract</option>
+                <option value="Temporary">Temporary</option>
+                <option value="On call">On call</option>
+            </select>
+        </div>
+    <div>
+        <p>How did you find me ?</p>
+    <input type="radio" name="find" id="LinkedIn" value="LinkedIn">
+        <label for="LinkedIn">LinkedIn</label>
+    <input type="radio" name="find" id="Job Fair" value="Job Fair">
+        <label for="Job Fair">Job Fair</label>
+    <input type="radio" name="find" id="CWICorporate Partner " value="CWI Corporate Partner">
+    <label for="CWI Corporate Partner">CWI Corporate Partner</label>
+     </div>
+        <div>
+
+            <p><label for="freeform"> How do I prep for the interview ?</label></p>
+            <br>
+            <textarea id="freeform" name="freeform" rows="10" cols="100">
+            </textarea>
+        </div>
+    </fieldset>
+<input type="submit" id="submit" value="Submit" class="btn">
+ </form>
+</main>
+</body>
+<footer>
+  <a href="https://www.linkedin.com/" target="_blank">
+    <img src="images/287697_linkedin_icon.png" alt="linked in">
+  </a>
+  <a href="https://github.com/yoongi127" target="_blank">
+    <img src="images/1964417_github_logo_media_social_icon.png" alt="github link">
+  </a>
+  <p> Contact me at :  <a href="malito:ericapedraza@my.cwi.edu">ericapedraza@my.cwi.edu</a><br>
+       
+  </p>
+</footer>
+</html>
